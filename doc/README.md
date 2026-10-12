@@ -33,7 +33,7 @@ This program only implements calibration with quadrilateral plates, not with any
 ## Intend
 As shown in the example folder, to use this software you need a config.json file and the corresponding files for the image and point cloud.
 config.json: refer to example/config.json, normally you only need to change the K and D of the camera in it, there is no requirement for the path of this file.
-dataset: dataset refers to image_orig and pointcloud under example, the name of these two folders can not be changed and must be in the same folder. image_orig needs to have N (N>=4) undistorted images in it, and there are N corresponding pcd pointcloud files in pointcloud, the two should be synchronised in time. be synchronised in time.
+dataset: dataset refers to image_orig and pointcloud under example, the name of these two folders can not be changed and must be in the same folder. image_orig needs to have N (N>=4) undistorted images in it, and there are N corresponding pcd pointcloud files in pointcloud, the two should be synchronised in time.
 
 ## Manipulate
 1. Punch the config file. In the terminal launching . /PlyCal-qt will take you directly to the config.json file selection.
